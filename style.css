@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(44 18 42);
+}
+
+.section {
+    padding: 50px;
+    width: 1140px;
+    max-width: 100%;
+}
+
+input.searchInput {
+    width: 400px;
+    height: 6px;
+    border: none;
+    border-radius: 5px 0px 0px 6px;
+    background: white;
+    font-size: 15px;
+    padding: 22px;
+}
+
+button {
+    border: none;
+    padding: 15px;
+    height: 50px;
+    width: 91px;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: 0px;
+    background: #ba3597;
+    color: white;
+    cursor: pointer;
+}
+
+.search-and-input-wrapper {
+    display: flex;
+    width: 540px;
+    margin: 0 auto;
+}
+
+/* css for javascript API */
+.style-meal {
+    width: 300px;
+}
+
+div#search-meal {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+}
+
+.style-meal img {
+    width: 100%;
+}
+
+.style-meal h3 {
+    color: rgb(252 227 181);
+    text-align: center;
+    font-family: arial;
+    font-size: 16px;
+}
+
+/* inner Ingredient css style */
+div#ingredient-list {
+    width: 1140px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-right: -220px;
+    margin-bottom: 50px;
+}
+
+div#inner-meal-style {
+    width: 350px;
+    font-size: 20px;
+    color: rgb(252 227 181);
+}
+
+div#inner-meal-style img {
+    width: 300px;
+}
+div#meal-list {
+    width: 350px;
+    font-size: 17px;
+    font-family: arial;
+    color: rgb(252 227 181);
+    line-height: 26px;
+    margin-left: -150px;
+}
+
+div#meal-list h4 {
+    font-size: 22px;
+    color: rgb(252 227 181);
+    margin-bottom: 15px;
+}
